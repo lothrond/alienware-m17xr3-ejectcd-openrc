@@ -1,0 +1,7 @@
+#!/sbin/openrc-run
+
+# This fixes the ejectcd button for Alienware M17xR3 laptops.
+start() {
+    ebegin "Starting Alienware M17xR3 fix"
+    setkeycodes 89 161
+}

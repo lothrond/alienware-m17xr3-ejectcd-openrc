@@ -1,0 +1,12 @@
+alienware-m17xr3-ejectcd-openrc
+===============================
+
+Fix the ejectcd button for Alienware M17xR3 laptops using openrc.
+
+install:
+
+    sudo make install
+
+remove:
+
+    sudo make remove
